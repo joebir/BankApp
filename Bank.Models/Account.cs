@@ -15,10 +15,10 @@ namespace Bank.Models
     public partial class Account
     {
         public int AccountID { get; set; }
-        public int AccountNumber { get; set; }
-        public int Pin { get; set; }
+        public string AccountNumber { get; set; }
+        public string Pin { get; set; }
         public string AccountType { get; set; }
-        public long Balance { get; set; }
+        public decimal Balance { get; set; }
         public int CustomerID { get; set; }
     
         public virtual Customer Customer { get; set; }

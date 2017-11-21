@@ -1,0 +1,11 @@
+C:\DotNET\BankApp\Bank.Models\bin\Debug\Bank.Models.dll.config
+C:\DotNET\BankApp\Bank.Models\bin\Debug\Bank.Models.dll
+C:\DotNET\BankApp\Bank.Models\bin\Debug\Bank.Models.pdb
+C:\DotNET\BankApp\Bank.Models\bin\Debug\EntityFramework.dll
+C:\DotNET\BankApp\Bank.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNET\BankApp\Bank.Models\bin\Debug\EntityFramework.xml
+C:\DotNET\BankApp\Bank.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\DotNET\BankApp\Bank.Models\obj\Debug\Bank.Models.csprojResolveAssemblyReference.cache
+C:\DotNET\BankApp\Bank.Models\obj\Debug\Bank.Models.csproj.CoreCompileInputs.cache
+C:\DotNET\BankApp\Bank.Models\obj\Debug\Bank.Models.dll
+C:\DotNET\BankApp\Bank.Models\obj\Debug\Bank.Models.pdb
