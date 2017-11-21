@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{023E2AE5-9B5B-4361-B607-31E6F2B705FE}</ProjectGuid>
+    <ProjectGuid>{44877C2E-7FCA-4404-8112-85C99FF7D7D9}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Bank.ATMConsole</RootNamespace>
     <AssemblyName>Bank.ATMConsole</AssemblyName>

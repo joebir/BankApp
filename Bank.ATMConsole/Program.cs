@@ -58,7 +58,6 @@ namespace Bank.ATMConsole
                 "2: Make a deposit\n" +
                 "3: Make a withdrawl\n" +
                 "4: Log out.");
-
         }
     }
 }

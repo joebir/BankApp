@@ -1,0 +1,15 @@
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.ATMConsole.exe.config
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.ATMConsole.exe
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.ATMConsole.pdb
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Models.dll
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Services.dll
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\EntityFramework.dll
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Models.pdb
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Models.dll.config
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Services.pdb
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\Bank.Services.dll.config
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\EntityFramework.xml
+C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.csprojResolveAssemblyReference.cache
+C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.csproj.CoreCompileInputs.cache
+C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.exe
+C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.pdb

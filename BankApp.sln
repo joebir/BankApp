@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Models", "Bank.Models\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Services", "Bank.Services\Bank.Services.csproj", "{EC7F9926-1290-4514-9F45-34D800159015}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.Console", "Bank.Console\Bank.Console.csproj", "{797F0FE3-5ACF-4680-A7D7-19FB49310615}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bank.ATMConsole", "Bank.ATMConsole\Bank.ATMConsole.csproj", "{44877C2E-7FCA-4404-8112-85C99FF7D7D9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,10 +23,10 @@ Global
 		{EC7F9926-1290-4514-9F45-34D800159015}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7F9926-1290-4514-9F45-34D800159015}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7F9926-1290-4514-9F45-34D800159015}.Release|Any CPU.Build.0 = Release|Any CPU
-		{797F0FE3-5ACF-4680-A7D7-19FB49310615}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{797F0FE3-5ACF-4680-A7D7-19FB49310615}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{797F0FE3-5ACF-4680-A7D7-19FB49310615}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{797F0FE3-5ACF-4680-A7D7-19FB49310615}.Release|Any CPU.Build.0 = Release|Any CPU
+		{44877C2E-7FCA-4404-8112-85C99FF7D7D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44877C2E-7FCA-4404-8112-85C99FF7D7D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44877C2E-7FCA-4404-8112-85C99FF7D7D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44877C2E-7FCA-4404-8112-85C99FF7D7D9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
