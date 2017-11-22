@@ -5,8 +5,6 @@
       <PropertyRef Name="AccountID" />
     </Key>
     <Property Name="AccountID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-    <Property Name="AccountNumber" Type="int" Nullable="false" />
-    <Property Name="Pin" Type="nvarchar" MaxLength="4" Nullable="false" />
     <Property Name="AccountType" Type="nvarchar" MaxLength="10" Nullable="false" />
     <Property Name="Balance" Type="money" Nullable="false" />
     <Property Name="CustomerID" Type="int" Nullable="false" />
@@ -16,6 +14,7 @@
       <PropertyRef Name="CustomerID" />
     </Key>
     <Property Name="CustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Pin" Type="nvarchar" MaxLength="4" Nullable="false" />
     <Property Name="FirstName" Type="nvarchar" MaxLength="25" Nullable="false" />
     <Property Name="LastName" Type="nvarchar" MaxLength="25" Nullable="false" />
   </EntityType>

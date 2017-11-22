@@ -13,3 +13,5 @@ C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.csprojResolveAssembl
 C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.csproj.CoreCompileInputs.cache
 C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.exe
 C:\DotNET\BankApp\Bank.ATMConsole\obj\Debug\Bank.ATMConsole.pdb
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\EntityFramework.SqlServer.dll
+C:\DotNET\BankApp\Bank.ATMConsole\bin\Debug\EntityFramework.SqlServer.xml

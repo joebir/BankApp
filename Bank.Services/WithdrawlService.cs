@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bank.Services
 {
-    class WithdrawlService
+    public class WithdrawlService
     {
         public bool Withdraw(decimal amount, Account account)
         {
@@ -28,6 +28,7 @@ namespace Bank.Services
                     };
                 ctx.Withdrawls.Add(withdrawl);
 
+                ctx.Accounts.SingleOrDefault(e => e.AccountID == account.AccountID).Balance -= amount;
                 account.Balance -= amount;
 
                 return ctx.SaveChanges() == 3;

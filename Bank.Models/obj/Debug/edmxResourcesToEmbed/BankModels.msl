@@ -5,8 +5,6 @@
       <EntityTypeMapping TypeName="BankDBModel.Account">
         <MappingFragment StoreEntitySet="Accounts">
           <ScalarProperty Name="AccountID" ColumnName="AccountID" />
-          <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-          <ScalarProperty Name="Pin" ColumnName="Pin" />
           <ScalarProperty Name="AccountType" ColumnName="AccountType" />
           <ScalarProperty Name="Balance" ColumnName="Balance" />
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
@@ -17,6 +15,7 @@
       <EntityTypeMapping TypeName="BankDBModel.Customer">
         <MappingFragment StoreEntitySet="Customers">
           <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Pin" ColumnName="Pin" />
           <ScalarProperty Name="FirstName" ColumnName="FirstName" />
           <ScalarProperty Name="LastName" ColumnName="LastName" />
         </MappingFragment>

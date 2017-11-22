@@ -9,46 +9,15 @@ namespace Bank.Services
 {
     public class AccountService
     {
-        private readonly int _accountId;
-
-        public AccountService(int accountId)
+        public Account GetAccount(string accountId)
         {
-            _accountId = accountId;
-        }
-
-        public Account GetAccount()
-        {
+            int id = Int32.Parse(accountId);
             using (var ctx = new BankDBEntities())
             {
-                var e = ctx.Accounts.Find(_accountId);
-
-                if(e != null)
-                {
-                    return new Account
-                    {
-                        AccountID = e.AccountID,
-                        AccountNumber = e.AccountNumber,
-                        Pin = e.Pin,
-                        AccountType = e.AccountType,
-                        Balance = e.Balance,
-                        CustomerID = e.CustomerID
-                    };
-                }
-
-                return null;
+                return ctx
+                    .Accounts
+                    .SingleOrDefault(e => e.AccountID == id);
             }
-        }
-
-        public bool Verify(string pin)
-        {
-            if (pin == GetAccount().Pin) return true;
-
-            return false;
-        }
-
-        public int GetUserID()
-        {
-            return GetAccount().CustomerID;
         }
     }
 }

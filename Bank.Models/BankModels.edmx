@@ -10,8 +10,6 @@
             <PropertyRef Name="AccountID" />
           </Key>
           <Property Name="AccountID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="AccountNumber" Type="int" Nullable="false" />
-          <Property Name="Pin" Type="nvarchar" MaxLength="4" Nullable="false" />
           <Property Name="AccountType" Type="nvarchar" MaxLength="10" Nullable="false" />
           <Property Name="Balance" Type="money" Nullable="false" />
           <Property Name="CustomerID" Type="int" Nullable="false" />
@@ -21,6 +19,7 @@
             <PropertyRef Name="CustomerID" />
           </Key>
           <Property Name="CustomerID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Pin" Type="nvarchar" MaxLength="4" Nullable="false" />
           <Property Name="FirstName" Type="nvarchar" MaxLength="25" Nullable="false" />
           <Property Name="LastName" Type="nvarchar" MaxLength="25" Nullable="false" />
         </EntityType>
@@ -119,8 +118,6 @@
             <PropertyRef Name="AccountID" />
           </Key>
           <Property Name="AccountID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="AccountNumber" Type="Int32" Nullable="false" />
-          <Property Name="Pin" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="AccountType" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Balance" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
           <Property Name="CustomerID" Type="Int32" Nullable="false" />
@@ -131,6 +128,7 @@
             <PropertyRef Name="CustomerID" />
           </Key>
           <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Pin" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="FirstName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="LastName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
           <NavigationProperty Name="Accounts" Relationship="Self.FK_dbo_Accounts_dbo_Customers_CustomerID" FromRole="Customers" ToRole="Accounts" />
@@ -234,8 +232,6 @@
             <EntityTypeMapping TypeName="BankDBModel.Account">
               <MappingFragment StoreEntitySet="Accounts">
                 <ScalarProperty Name="AccountID" ColumnName="AccountID" />
-                <ScalarProperty Name="AccountNumber" ColumnName="AccountNumber" />
-                <ScalarProperty Name="Pin" ColumnName="Pin" />
                 <ScalarProperty Name="AccountType" ColumnName="AccountType" />
                 <ScalarProperty Name="Balance" ColumnName="Balance" />
                 <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
@@ -246,6 +242,7 @@
             <EntityTypeMapping TypeName="BankDBModel.Customer">
               <MappingFragment StoreEntitySet="Customers">
                 <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+                <ScalarProperty Name="Pin" ColumnName="Pin" />
                 <ScalarProperty Name="FirstName" ColumnName="FirstName" />
                 <ScalarProperty Name="LastName" ColumnName="LastName" />
               </MappingFragment>

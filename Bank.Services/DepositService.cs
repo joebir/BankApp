@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Bank.Services
 {
-    class DepositService
+    public class DepositService
     {
         public bool Deposit(decimal amount, Account account)
         {
@@ -28,6 +28,8 @@ namespace Bank.Services
                     };
                 ctx.Deposits.Add(deposit);
 
+
+                ctx.Accounts.SingleOrDefault(e => e.AccountID == account.AccountID).Balance += amount;
                 account.Balance += amount;
 
                 return ctx.SaveChanges() == 3;

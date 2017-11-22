@@ -10,43 +10,21 @@ namespace Bank.Services
 {
     public class CustomerService
     {
-        private readonly int _customerId;
-
-        public CustomerService(int customerId)
-        {
-            _customerId = customerId;
-        }
-
-        public Customer GetCustomer()
+        public Customer GetCustomer(int customerId)
         {
             using (var ctx = new BankDBEntities())
             {
-                var e = ctx.Customers.Find(_customerId);
-
-                if(e != null)
-                    return new Customer
-                    {
-                        CustomerID = e.CustomerID,
-                        FirstName = e.FirstName,
-                        LastName = e.LastName
-                    };
-                return null;
+                return ctx
+                    .Customers
+                    .SingleOrDefault(e => e.CustomerID == customerId);
             }
         }
 
-        public string GetFirstName()
+        public bool Verify(string pin, Customer customer)
         {
-            return GetCustomer().FirstName;
-        }
+            if (pin == customer.Pin) return true;
 
-        public string GetLastName()
-        {
-            return GetCustomer().LastName;
-        }
-
-        public string GetFullName()
-        {
-            return (GetFirstName() + " " + GetLastName());
+            return false;
         }
     }
 }

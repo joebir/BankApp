@@ -5,8 +5,6 @@
       <PropertyRef Name="AccountID" />
     </Key>
     <Property Name="AccountID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-    <Property Name="AccountNumber" Type="Int32" Nullable="false" />
-    <Property Name="Pin" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="AccountType" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="Balance" Type="Decimal" Precision="19" Scale="4" Nullable="false" />
     <Property Name="CustomerID" Type="Int32" Nullable="false" />
@@ -17,6 +15,7 @@
       <PropertyRef Name="CustomerID" />
     </Key>
     <Property Name="CustomerID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Pin" Type="String" MaxLength="4" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="FirstName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
     <Property Name="LastName" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
     <NavigationProperty Name="Accounts" Relationship="Self.FK_dbo_Accounts_dbo_Customers_CustomerID" FromRole="Customers" ToRole="Accounts" />
